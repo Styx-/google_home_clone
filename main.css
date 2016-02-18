@@ -1,0 +1,25 @@
+div{
+  border: 1px solid #ddd;
+}
+
+.navbar-container{
+  display: inline-block;
+  margin-left: 1168px;
+  padding-right: 30px;
+}
+
+.nav{
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.apps{
+  padding-top: 5px;
+}
+
+.mid-content-container{
+  margin: 200px auto;
+  width: 272px;
+  display: block;
+}
