@@ -1,7 +1,3 @@
-div{
-  border: 1px solid #ddd;
-}
-
 .navbar-container{
   display: inline-block;
   margin-left: 1096px;
@@ -17,6 +13,9 @@ div{
   vertical-align: middle;
   padding-left: 15px;
   color: #272727;
+}
+.nav:hover{
+  text-decoration: underline;
 }
 
 .apps{
@@ -50,7 +49,7 @@ div{
   line-height: 27px;
   border: 1px solid lightgray;
   display: inline-block;
-
+  padding-left: 10px;
 }
 
 .buttons-container{
@@ -72,7 +71,67 @@ div{
   width: 100px;
 }
 
-.footer{
-  display: inline-block;
-  margin-top: 200px;
+footer {
+    width : 100%;
+    height : 50px;
+    position : absolute;
+    bottom : 0;
+    left : 0;
+    background: #F5F5F5 !important;
+    overflow: hidden;
+    border-top : solid #DDDDDD;
+    border-width : 1px;
+    font-size : .8em;
+    color : #404040;
+}
+
+#footer_left, #footer_right{
+    height : 100%;
+    list-style-type: none;
+}
+
+#footer_left {
+    float : left;
+    width : 40%;
+    padding-left : 3%;
+}
+
+#footer_right {
+    float : right;
+    width : 40%;
+    padding-right : 3%;
+}
+
+#footer_left li {
+    position : relative;
+    height : 100%;
+    max-width : 30%;
+    float : left;
+    list-style-type: none;
+    padding-left : 20px;
+    padding-right : 10px;
+    text-align : center;
+    margin-top : 20px;
+    color: #666;
+} 
+
+#footer_right li {
+    position : relative;
+    height : 100%;
+    max-width : 30%;
+    float : right;
+    list-style-type: none;
+    padding-left : 10px;
+    padding-right : 20px;
+    text-align : center;
+    margin-top : 20px;
+    color: #666;
+}
+
+#footer_right li:hover {
+    text-decoration: underline;
+}
+
+#footer_left li:hover {
+    text-decoration: underline;
 }
